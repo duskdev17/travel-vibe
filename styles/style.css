@@ -155,6 +155,11 @@ select {
   justify-content: space-between;
 }
 
+.image {
+  display: flex;
+  justify-content: right;
+}
+
 .text-content p,
 .text-content li {
   font-size: 16px;
@@ -211,6 +216,18 @@ select {
   margin-bottom: 48px;
 }
 
+/* Simple perfect place section */
+.simple-perfect-place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.simple-perfect-place h3 {
+  text-align: left;
+  max-width: 80%;
+}
+
 /* Footer section */
 .footer-section {
   background: rgba(19, 19, 24, 0.05);
@@ -237,6 +254,7 @@ select {
 .social i {
   height: 44px;
   font-size: 24px;
+  color: black;
 }
 
 .footer-section hr {
