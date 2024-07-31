@@ -352,6 +352,64 @@ h4 {
   max-width: 80%;
 }
 
+/* Newsletter section styles */
+.newsletter {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.newsletter .text-content {
+  border: 2px solid rgba(255, 84, 0, 1);
+  border-radius: 1rem;
+  padding: 40px;
+}
+
+.newsletter p {
+  width: 80%;
+}
+
+.newsletter hr {
+  border: 1px solid rgba(19, 19, 24, 0.1);
+  margin: 0 auto;
+  width: 100%;
+}
+
+.newsletter form {
+  width: 100%;
+}
+
+.newsletter input {
+  background-color: rgba(19, 19, 24, 0.05);
+  margin: 0;
+  width: 96%;
+  margin-bottom: 16px;
+}
+
+.newsletter button {
+  width: 100%;
+}
+
+.newsletter .image {
+  position: relative;
+}
+
+.newsletter .discount-tag {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: rgba(255, 84, 0, 1);
+  border-radius: 16px;
+  padding: 35px 55px;
+  color: #ffffff;
+  transform: translate(10%, 30%) rotate(-20deg);
+}
+.discount-tag p,
+.discount-tag h2 {
+  margin: 0 auto;
+  text-align: center;
+}
+
 /* Footer section */
 .footer-section {
   background: rgba(19, 19, 24, 0.05);
